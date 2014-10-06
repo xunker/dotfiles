@@ -19,7 +19,7 @@ export PATH=/usr/local/bin:/usr/local/Cellar/sphinx/2.1.6/bin:/Applications/Post
 
 source ~/.git-prompt.sh
 #PS1="\[\033[0;37m\]\[\033[0;32m\]\w\[\033[0;37m\]\$(__git_ps1) \u:\$ "
-PS1="\[\033[0;37m\]\[\033[0;32m\]\w\[\033[0;37m\]\$(__git_ps1) \$ "
+PS1="[\$(date +%H:%M:%S)]\[\033[0;37m\]\[\033[0;32m\]\w\[\033[0;37m\]\$(__git_ps1) \$ "
 
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
