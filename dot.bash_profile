@@ -12,6 +12,10 @@ alias gco="git checkout"
 alias gp='git pull' 
 alias gpu='git push' 
 alias gpoh='git push origin master && git push heroku master' 
+# gignore is speficially to ignore changes to certain TRACKED files in a repo,
+# to ignore certain UNTRACKED files, use the line below this one.
+alias gignore='git update-index --skip-worktree'
+#alias gignore="exclude = !sh -c 'echo "$1" >> .git/info/exclude' -"
 alias be="bundle exec"
 alias cuc="cucumber -r features -f progress"
 
